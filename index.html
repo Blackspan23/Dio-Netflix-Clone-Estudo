@@ -21,10 +21,9 @@
         <div class="containermeu">
             <h2 class="logo"> SOUNDFLIX</h2>
             <nav>
-                    <a href="index.html">Início</a>
-                    <a href="#">Albuns</a>
-                    <a href="#">EPs</a>
-                    <a href="#">Ao vivo</a>
+                    <a href="indexreal.html">Início</a>
+                    <a href="#albuns">Albuns</a>
+                    <a href="#eps">EPs</a>
             </nav>
         </div>
     </header>
@@ -36,7 +35,7 @@
                 <p class="descricao">Fome de Tudo é o sétimo álbum de estúdio da banda
                      pernambucana de manguebeat Nação Zumbi, lançado em 27 de outubro de 2007 e 
                      produzido por Mário Caldato Jr. (Beastie Boys, Beck, Marcelo D2).</p>
-                
+                <!--
                 <div class="botoes">
                     <button role="button"">
                         <i class="fas fa-play">
@@ -44,25 +43,38 @@
                         </i>
                         Ouvir agora
                     </button>
-                        
+                -->
                     <button role="button">
                         <i class="fas fa-question-circle"></i>
                         Mais informações
                     </button>
+
+                    <audio preload="metadata" controls>    
+                        <source src="audio/nacaozumbi.wav" type="audio/wav">
+                        </audio>
+        
                 </div>
             </div>
         </div>
     </main>
     
     <section class="carrossel-albuns">
+        <h2 id="albuns" style="text-align: center;">Albuns</h2>
         <div class="owl-carousel owl-theme">
             <div class="item"> <img class="box-albuns-mini" src="img/Milton Nascimento clube da esquina.webp" alt="Clube da Esquina - Milton Nascimento & Lo Borges"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/TomJobimwave.webp" alt="Wave - Tom Jobim"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/Rashid a coragem da luz.webp" alt="A Coragem da Luz - Rashid"> </div>
+            <div class="item"> <a href="index.html"> <img class="box-albuns-mini" src="img/Nacaozumbi fome de tudo.webp" alt="Nação Zumbi - fome de tudo"> </a></div>
             <div class="item"> <a href="DonL-principal.html">  <img class="box-albuns-mini" src="img/Don L roteiro.jpg" alt="RPA3 - Don L"> </a></div>
             <div class="item"> <img class="box-albuns-mini" src="img/Jorge Ben a tábua de esmeralda.webp" alt="A Tábula de Esmeralda"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/Frank Ocean Blonde.jpg" alt="Blonde - Frank Ocean"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/Amarelo emicida.jpg" alt="Amarelo - Emicida"> </div>
+        </div>
+    </section>
+
+    <section class="carrossel-eps">
+        <h2 id="eps" style="text-align: center;">EP's</h2>
+        <div class="owl-carousel owl-theme">
             <div class="item"> <img class="box-albuns-mini" src="img/Cartola.jpg" alt="Cartola - Cartola"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/Manobrown.jpg" alt="Boggie Naipe - Manobrown"> </div>
             <div class="item"> <img class="box-albuns-mini" src="img/Secos e Molhados.jpg" alt="Secos e Molhados - Secos e Molhados"> </div>
@@ -72,6 +84,7 @@
             <div class="item"> <img class="box-albuns-mini" src="img/Tomze todos osolhos.webp" alt="Todos os Olhos - Tom Zé"> </div>
         </div>
     </section>
+
 
     <footer>
         <p class="texto-footer">Feito por Leonardo Menezes</p>
