@@ -1,0 +1,39 @@
+@media screen and (max-width:700px){
+    header .containermeu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .containermeu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .album-principal1 .containermeu .titulo{
+        width: 400px;
+        font-size: 50px;
+    }
+
+    .album-principal1 .containermeu .descricao{
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .album-principal2 .containermeu .titulo{
+        width: 400px;
+        font-size: 50px;
+    }
+
+    .album-principal2 .containermeu .descricao{
+        font-size: 20px;
+        width: 400px;
+    }
+
+    main button{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 400px;
+        height: 30px;
+        padding: 0px;
+    }
+}
